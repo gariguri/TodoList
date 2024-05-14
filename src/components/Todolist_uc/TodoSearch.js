@@ -4,6 +4,7 @@ export default function TodoSearch() {
   const { searchInput, setSearchInput } = useTodoContext();
   return (
     <div className="search-container">
+      <img className="search-img" src="/search.png"></img>
       <input
         className="searchinput"
         type="text"
