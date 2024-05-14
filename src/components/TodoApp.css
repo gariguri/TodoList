@@ -28,10 +28,15 @@ body {
 .color4 {
   background-color: #f900cf;
 }
-.inputtext,
-.searchinput {
+.inputtext {
   width: 300px;
   height: 30px;
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+}
+.searchinput {
+  width: 250px;
+  height: 25px;
   border-radius: 5px;
   border-color: rgb(255, 255, 255);
 }
@@ -105,7 +110,7 @@ body {
   margin-bottom: 10px;
 }
 .fixinput {
-  width: 212px;
+  width: 222px;
   border-radius: 5px;
   border-color: rgb(255, 255, 255);
   height: 23px;
@@ -114,6 +119,6 @@ body {
 .search-img {
   width: 20px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 10px;
 }
