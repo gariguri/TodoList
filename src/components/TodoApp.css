@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(245, 227, 238);
+}
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.colors div {
+  border-radius: 50%;
+  width: 20px;
+  border-color: black;
+  height: 20px;
+}
+
+.color1 {
+  background-color: #eeb3e9;
+}
+.color2 {
+  background-color: #f384e7;
+}
+.color3 {
+  background-color: #f559f0;
+}
+.color4 {
+  background-color: #f900cf;
+}
+.inputtext,
+.searchinput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+}
+.inputbutton {
+  background-color: rgb(212, 154, 237);
+  color: rgb(250, 243, 243);
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  width: 50px;
+  height: 36px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 1px;
+}
+.inputbutton:active {
+  background-color: #ce5ef1;
+}
+.todos {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.todo {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+  justify-content: center;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+.search-container {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.delete {
+  color: #f900cf;
+  background-color: rgb(245, 227, 238);
+  font-size: 20px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  border-radius: 50%;
+  border-color: #f900cf;
+  font-weight: bold;
+}
+.confirm,
+.cancel {
+  background-color: rgb(212, 154, 237);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.fixinput {
+  width: 212px;
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+  height: 23px;
+  margin-bottom: 11px;
+}
