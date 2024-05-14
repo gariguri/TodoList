@@ -17,6 +17,10 @@ export default function TodoInput({
       setInputText("");
       setColors([...colors, inputColor]);
       setInputColor("");
+    } else if (inputText.trim() === "") {
+      alert("내용을 입력하세요.");
+    } else {
+      alert("색상을 선택하세요.");
     }
   };
   console.log(colors);

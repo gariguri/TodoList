@@ -21,6 +21,8 @@ export default function TodoItem({ index, todo }) {
       const newTodos = todos.map((item, i) => (i === index ? editText : item));
       setTodos(newTodos);
       setEditMode(false); // 수정 모드 종료
+    } else {
+      alert("수정사항을 입력하세요.");
     }
   }
 

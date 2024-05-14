@@ -12,7 +12,6 @@ export default function TodoSearch() {
         value={searchInput}
         onChange={(e) => setSearchInput(e.target.value)}
       ></input>
-      {/* <button className="searchbutton" onClick={(e) => handleInputClick(e)}>입력</button> */}
     </div>
   );
 }

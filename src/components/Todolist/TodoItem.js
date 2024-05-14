@@ -16,15 +16,14 @@ export default function TodoItem({ todos, todo, index, colors, setTodos, setColo
     setEditText(e.target.value); // 수정 중인 텍스트 업데이트
   }
   function handleEditConfirm(e) {
-    console.log("gg", e.target);
     if (editText.trim() !== "") {
       const newTodos = todos.map((item, i) => (i === index ? editText : item));
       console.log(index);
       setTodos(newTodos);
       setEditMode(false); // 수정 모드 종료
+    } else {
+      alert("수정사항을 입력하세요.");
     }
-
-    console.log("dk");
   }
 
   function handleCancelEdit(e) {
