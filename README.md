@@ -2,7 +2,7 @@
 react로 todo 리스트의 추가, 수정, 삭제 구현 및 리액트 실습 진행
 
 ### 1. Todo List 추가하기
-
+- 중요한 리스트일수록 진한 색상을 사용하여 우선순위를 표시함.
 <img width="500" alt="스크린샷 2024-05-14 오후 1 25 17" src="https://github.com/gariguri/TodoList/assets/135303833/50c60ea3-f1d2-4d59-91dd-6012521f105d">
 
 ### 2. Todo List 검색하기
